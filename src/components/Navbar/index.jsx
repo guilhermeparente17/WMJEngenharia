@@ -13,16 +13,16 @@ import {
 
 const index = ({toggle}) => {
     return (
-        <div>
+        <section  id="inicio">
             <Nav>
                 <NavContainer>
-                    <NavLogo to="/"><NavImage src="https://i.ibb.co/0DXg0CV/logo1.png"></NavImage></NavLogo>
+                    <NavLogo to="inicio" smooth={true} duration={700}><NavImage src="https://i.ibb.co/0DXg0CV/logo1.png"></NavImage></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks>Sobre</NavLinks>
+                            <NavLinks to="sobre" smooth={true} duration={700}>Sobre</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks>O que e?</NavLinks>
@@ -42,7 +42,7 @@ const index = ({toggle}) => {
                     </NavMenu>
                 </NavContainer>
             </Nav>
-        </div>
+        </section>
     )
 }
 

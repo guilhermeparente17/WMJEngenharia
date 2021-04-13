@@ -18,7 +18,7 @@ const Sidebar = ({isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
+                    <SidebarLink to="sobre" smooth={true} duration={700} onClick={toggle}>Sobre</SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>O que é ?</SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>Obras</SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>Inversores</SidebarLink>

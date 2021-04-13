@@ -6,7 +6,7 @@ export const IndexContainer = styled.div`
     justify-content:none;
     align-items:none;
     padding: 0 30px;
-    height:700px;
+    height:760px;
     position: relative;
     z-index:1;
 
@@ -52,7 +52,7 @@ export const IndexContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     margin-left: 150px;
-    margin-top: 150px;
+    margin-top: 250px;
     position: absolute;
     display: flex;
     justify-content:center;
@@ -66,7 +66,7 @@ export const IndexContent = styled.div`
 
 export const IndexH1 = styled.h1`
     color: #fff;
-    font-size: 68px;
+    font-size: 40px;
     font-family: 'Noto Sans SC', sans-serif;
     @media screen and (max-width: 768px){
         font-size: 50px;
@@ -78,7 +78,7 @@ export const IndexH1 = styled.h1`
 `
 
 export const IndexP = styled.p`
-    margin-top: 44px;
+    margin-top: 34px;
     color: #fff;
     font-size: 30px;
     text-align: left;
@@ -108,24 +108,25 @@ export const IndexBtnWrapper = styled.div`
 `
 export const Button = styled.button`
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
     background: #008C00;
-    padding: 20px 20px;
+    padding: 10px 30px;
     border:none;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
     outline:none;
     transition: 0.2s ease-in-out;
+    margin-top: 40px;
 
     &:hover{
-        background: #08A334;
+        background: #005900;
         transition: 0.4s ease-in-out;
     }
 
     @media screen and (max-width: 768px){
-        font-size: 24;
+        font-size: 22;
         text-align: center;
-        padding: 20px 50px;
+        margin-top: 0;
     }
 `
