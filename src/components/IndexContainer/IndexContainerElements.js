@@ -52,7 +52,7 @@ export const IndexContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     margin-left: 150px;
-    margin-top: 250px;
+    margin-top: 230px;
     position: absolute;
     display: flex;
     justify-content:center;

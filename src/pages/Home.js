@@ -16,7 +16,7 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <IndexContainer />
-            <Sobre />
+            <Sobre  />
         </div>
     )
 }

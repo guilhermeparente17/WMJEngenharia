@@ -1,0 +1,35 @@
+[33mcommit 0bcad6a7894ef90f5608ecd5d03138e8c4d4b4a9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Tue Apr 13 14:51:35 2021 -0300
+
+    Editnado o indexContainer e adicionando o React-Scroll
+
+[33mcommit 973be4a91b97f53e014aa12b1d4cfc927051f598[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Mon Apr 12 19:58:49 2021 -0300
+
+    Adicionando o Sidebar e IndexContainer
+
+[33mcommit d895fcb01fe3ad54d4947c9c06a496557940bbbb[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Mon Apr 12 18:26:05 2021 -0300
+
+    Adicionando o Sidebar
+
+[33mcommit 5c5d43bcc5e802333757178365ac226d8c3bcdba[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Mon Apr 12 17:47:40 2021 -0300
+
+    Recriando o NavBar
+
+[33mcommit 5f50d2252ecb01642040c89e2234315d6fb86c37[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Mon Apr 12 16:02:22 2021 -0300
+
+    first commit
+
+[33mcommit 87812780175212311b8c79441897010cd2f91dc9[m
+Author: guilherme <guilherme.parente@outlook.com>
+Date:   Mon Apr 12 15:41:17 2021 -0300
+
+    Initialize project using Create React App
