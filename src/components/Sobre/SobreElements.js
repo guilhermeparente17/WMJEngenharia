@@ -24,13 +24,15 @@ export const SobreCard = styled.div`
     }
 `
 
-export const SobreContainer = styled.div`
+export const SobreContainer = styled.section`
     width:600px;
+    margin-left: ${props => `${props.marginLeft}px`};
     
 
     @media screen and (max-width: 768px){
         width: 100%;
         margin-top:60px;
+        margin-left: 0;
     }
 
     @media screen and (max-width: 978px){
@@ -69,7 +71,7 @@ export const SobreImg = styled.img`
     width:600px;
     height:300px;
     border-radius: 15px;
-    margin-left: 100px;
+    margin-left: ${props => `${props.marginLeft}px`};
     max-width: 100%;
     display: block;
     

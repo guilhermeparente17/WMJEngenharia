@@ -61,6 +61,7 @@ export const IndexContent = styled.div`
     @media screen and (max-width: 768px){
         max-width: none;
         margin-left: 0px;
+        margin-top: 250px;
     }
 `
 
