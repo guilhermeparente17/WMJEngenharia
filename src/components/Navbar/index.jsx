@@ -28,7 +28,7 @@ const index = ({toggle}) => {
                             <NavLinks to="oque" smooth={true} duration={700}>O que e?</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks>Obras</NavLinks>
+                            <NavLinks to="obras" smooth={true} duration={700}>Obras</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks>Inversores</NavLinks>

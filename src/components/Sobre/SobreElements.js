@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Sobre = styled.section`
-    padding: 80px;
+    padding: 0px 80px;
     display: flex;
     flex-direction: column;
     justify-content:center;
