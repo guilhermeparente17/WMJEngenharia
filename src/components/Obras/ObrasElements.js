@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 
 export const Obras = styled.section`
-    padding: 40px 80px;
+    padding: 90px 80px 0 80px; 
     @media screen and (max-width: 768px){
-        padding:  0 30px;
+        padding:  90px 0px;
     }
+    color: #121212;
 `
 
 export const ObrasH1 = styled.h1`
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
+    font-size: 30px;
 
     @media screen and (max-width: 768px){
         text-align:center;

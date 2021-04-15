@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar'
 import IndexContainer from '../components/IndexContainer'
 import Sobre from '../components/Sobre'
 import Obras from '../components/Obras'
+import Inversores from '../components/Inversores'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +20,7 @@ const Home = () => {
             <IndexContainer />
             <Sobre  />
             <Obras />
+            <Inversores />
         </div>
     )
 }
