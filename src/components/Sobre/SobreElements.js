@@ -74,6 +74,7 @@ export const SobreImg = styled.img`
     margin-left: ${props => `${props.marginLeft}px`};
     max-width: 100%;
     display: block;
+    box-shadow: 10px 5px 30px #121212;
     
     @media screen and (max-width: 768px){
         margin-left: 0;

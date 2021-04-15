@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const Inversores = styled.div`
+export const Itens = styled.div`
     padding-top: 50px;
     color: #121212;
 `
 
-export const InversoresContainer = styled.div`
+export const ItensContainer = styled.div`
     display: flex;
     justify-content:center;
     align-items:center;
@@ -15,18 +15,25 @@ export const InversoresContainer = styled.div`
     padding: 0 80px;
 `
 
-export const InversoresCard = styled.div`
+export const ItensCard = styled.div`
     margin-right: 20px;
     margin-bottom: 20px;
+    margin-left: ${props => `${props.marginLeft}px`};
+    padding-bottom: ${props => `${props.paddingBottom}px`};
+
+    @media screen and (max-width: 768px){
+        margin-left: 0;
+        margin-bottom: 0;
+    }
 
 `
 
-export const InversoresImg = styled.img`
-    width: 250px;
-    height: 250px;
+export const ItensImg = styled.img`
+    width: ${props => `${props.width}px`};
+    height: ${props => `${props.height}px`};
     
 `
-export const InversoresTitulo = styled.h2`
+export const ItensTitulo = styled.h2`
     padding:30px;
     text-align:center;
     font-family: 'Noto Sans SC', sans-serif;
@@ -34,15 +41,15 @@ export const InversoresTitulo = styled.h2`
 `
 
 
-export const InversoresH1 = styled.h2`
+export const ItensH1 = styled.h2`
     padding:0 80px;
     margin: 40px 0;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 30px;
+    max-width: 800px;
 
     @media screen and (max-width: 768px){
         text-align:center;
-        font-size: 28px;
     }
 `
 

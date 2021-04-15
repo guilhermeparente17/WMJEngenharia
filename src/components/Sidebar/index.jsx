@@ -22,7 +22,7 @@ const Sidebar = ({isOpen, toggle }) => {
                     <SidebarLink to="oque" smooth={true} duration={700} onClick={toggle}>O que é ?</SidebarLink>
                     <SidebarLink to="obras" smooth={true} duration={700} onClick={toggle}>Obras</SidebarLink>
                     <SidebarLink to="inversores" smooth={true} duration={700} onClick={toggle}>Inversores</SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>Financiamentos</SidebarLink>
+                    <SidebarLink to="/" smooth={true} duration={700} onClick={toggle}>Financiamentos</SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
