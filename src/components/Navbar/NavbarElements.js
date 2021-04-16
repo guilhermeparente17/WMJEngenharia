@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-    background:#fff;
+    background:#000;
     height:80px;
     width:100%;
     display: flex;
@@ -33,7 +33,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%,60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #000;
+        color: #fff;
     }
 `
 
