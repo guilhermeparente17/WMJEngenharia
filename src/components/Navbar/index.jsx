@@ -10,13 +10,14 @@ import {
     NavImage,
     MobileIcon
 } from './NavbarElements'
+import Imagem from '../../images/logo2.png'
 
 const index = ({toggle}) => {
     return (
         <section  id="inicio">
             <Nav>
                 <NavContainer>
-                    <NavLogo to="inicio" smooth={true} duration={700}><NavImage src="https://i.ibb.co/0DXg0CV/logo1.png"></NavImage></NavLogo>
+                    <NavLogo to="inicio" smooth={true} duration={700}><NavImage src={Imagem}></NavImage></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
