@@ -24,7 +24,7 @@ const index = () => {
                     Sua casa ou empresa livre da conta de luz.<B> Até 95% de economia!</B> Invista já em energia solar!
                 </IndexP>
                 <IndexBtnWrapper>
-                <Button>
+                <Button href="https://api.whatsapp.com/send?phone=5585992235391" target="_blank">
                     Solicite um Orçamento
                 </Button>
                 </IndexBtnWrapper>

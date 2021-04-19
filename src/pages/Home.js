@@ -5,6 +5,7 @@ import IndexContainer from '../components/IndexContainer'
 import Sobre from '../components/Sobre'
 import Obras from '../components/Obras'
 import Inversores from '../components/Inversores'
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +22,7 @@ const Home = () => {
             <Sobre  />
             <Obras />
             <Inversores />
+            <Footer />
         </div>
     )
 }

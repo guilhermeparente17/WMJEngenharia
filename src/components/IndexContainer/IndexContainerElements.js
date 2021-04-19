@@ -108,6 +108,7 @@ export const IndexBtnWrapper = styled.div`
 
 `
 export const Button = styled.a`
+    text-decoration:none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #fff;

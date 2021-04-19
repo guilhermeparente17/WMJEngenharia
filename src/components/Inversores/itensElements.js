@@ -73,7 +73,7 @@ export const Botao = styled.a`
     background: #008C00;
     padding: 30px 60px;
     border:none;
-    border-radius: 5px;
+    border-radius: 55px;
     cursor: pointer;
     outline:none;
     transition: 0.2s ease-in-out;
