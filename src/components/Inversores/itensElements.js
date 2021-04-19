@@ -6,13 +6,19 @@ export const Itens = styled.div`
 `
 
 export const ItensContainer = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content:center;
     align-items:center;
-    flex-wrap: wrap;
     max-width: 1800px;
     margin: 0 10px;
-    padding: 0 80px;
+    padding: 0 50px;
+
+    @media screen and (max-width: 978px){
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 `
 
 export const ItensCard = styled.div`
@@ -20,10 +26,14 @@ export const ItensCard = styled.div`
     margin-bottom: 20px;
     margin-left: ${props => `${props.marginLeft}px`};
     padding-bottom: ${props => `${props.paddingBottom}px`};
+    text-align:center;
+
+    //fazer o props no margin
+    margin: 30px ${props => `${props.margin}px`};
 
     @media screen and (max-width: 768px){
-        margin-left: 0;
-        margin-bottom: 0;
+        margin:0px 60px;
+        margin-bottom: 30px;
     }
 
 `
@@ -34,10 +44,10 @@ export const ItensImg = styled.img`
     
 `
 export const ItensTitulo = styled.h2`
-    padding:30px;
-    text-align:center;
+    padding:10px;
     font-family: 'Noto Sans SC', sans-serif;
     font-size:17px;
+    height:50%;
 `
 
 
@@ -49,7 +59,7 @@ export const ItensH1 = styled.h2`
     max-width: 800px;
 
     @media screen and (max-width: 768px){
-        text-align:left;
+        text-align:center;
     }
 `
 

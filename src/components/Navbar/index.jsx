@@ -10,7 +10,7 @@ import {
     NavImage,
     MobileIcon
 } from './NavbarElements'
-import Imagem from '../../images/logo2.png'
+import Imagem from '../../images/logo1.png'
 
 const index = ({toggle}) => {
     return (
