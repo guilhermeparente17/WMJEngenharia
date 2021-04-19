@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const Itens = styled.div`
     padding-top: 50px;
     color: #121212;
@@ -61,6 +62,46 @@ export const ItensH1 = styled.h2`
     @media screen and (max-width: 768px){
         text-align:center;
     }
+`
+
+export const Botao = styled.a`
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    background: #008C00;
+    padding: 30px 60px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none;
+    transition: 0.2s ease-in-out;
+    margin-top: 40px;
+    margin-left: 40%;
+    margin-bottom: 100px;
+    text-decoration:none;
+
+    &:hover{
+        background: #005900;
+        transition: 0.4s ease-in-out;
+    }
+
+    @media screen and (max-width: 768px){
+        font-size: 22;
+        text-align: center;
+        margin-top: 0;
+        padding: 15px 30px;
+        margin-left: 15%;
+    }
+`
+
+
+export const WrapperBtn = styled.div`
+    margin: 100px 0;
+    height: 50px;
+    width: 100%;
+    
 `
 
 

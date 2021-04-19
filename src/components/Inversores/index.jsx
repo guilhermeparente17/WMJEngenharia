@@ -5,7 +5,9 @@ import {
     ItensImg,
     ItensTitulo,
     ItensH1,
-    ItensContainer
+    ItensContainer,
+    Botao,
+    WrapperBtn
 } from './itensElements'
 
 import Imagem from '../../images/foto7.jpg'
@@ -26,6 +28,11 @@ import Servico5 from '../../images/servico8.png'
 import Servico6 from '../../images/servico9.png'
 import Servico7 from '../../images/servico10.png'
 import Servico8 from '../../images/servico11.png'
+
+import Banco1 from '../../images/banco1.png'
+import Banco2 from '../../images/banco2.png'
+import Banco3 from '../../images/banco3.png'
+import Banco4 from '../../images/banco4.png'
 
 
 const index = () => {
@@ -78,7 +85,7 @@ const index = () => {
             <section id="servidos">
                 <Itens>
                     <ItensH1>Serviços</ItensH1>
-                    <ItensContainer>
+                    <ItensContainer >
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150}  src={Servico1} />
                             <ItensTitulo>Energia Solar</ItensTitulo>
@@ -114,6 +121,29 @@ const index = () => {
                     </ItensContainer>
                 </Itens>
             </section>
+
+            <section id="financiamentos">
+            <Itens>
+                <ItensH1>Financiamentos</ItensH1>
+                <ItensContainer>
+                    <ItensCard marginLeft={0}>
+                        <ItensImg width={200} height={150}  src={Banco1} />
+                    </ItensCard>
+                    <ItensCard marginLeft={50}>
+                        <ItensImg width={150} height={100} src={Banco2} />
+                    </ItensCard>
+                    <ItensCard marginLeft={50}>
+                        <ItensImg width={150} height={150} src={Banco3} />
+                    </ItensCard>
+                    <ItensCard marginLeft={50} paddingBottom={20}>
+                        <ItensImg width={150} height={50} src={Banco4} />
+                    </ItensCard>
+                </ItensContainer>
+            </Itens>
+            </section>
+            <WrapperBtn>
+                <Botao href="https://api.whatsapp.com/send?phone=5585992235391" target="_blank">Entre em Contato</Botao>
+            </WrapperBtn>
         </div>
     )
 }
