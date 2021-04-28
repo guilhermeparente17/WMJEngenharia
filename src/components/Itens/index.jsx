@@ -6,8 +6,6 @@ import {
     ItensTitulo,
     ItensH1,
     ItensContainer,
-    Botao,
-    WrapperBtn
 } from './itensElements'
 
 import Imagem from '../../images/foto7.jpg'
