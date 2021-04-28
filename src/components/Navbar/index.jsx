@@ -37,9 +37,6 @@ const index = ({toggle}) => {
                         <NavItem>
                             <NavLinks to="financiamentos" smooth={true} duration={700}>Financiamentos</NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks>Contato</NavLinks>
-                        </NavItem>
                     </NavMenu>
                 </NavContainer>
             </Nav>

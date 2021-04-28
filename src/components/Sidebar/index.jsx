@@ -23,10 +23,9 @@ const Sidebar = ({isOpen, toggle }) => {
                     <SidebarLink to="obras" smooth={true} duration={700} onClick={toggle}>Obras</SidebarLink>
                     <SidebarLink to="inversores" smooth={true} duration={700} onClick={toggle}>Inversores</SidebarLink>
                     <SidebarLink to="/" smooth={true} duration={700} onClick={toggle}>Financiamentos</SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>Contato</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Entre em Contato</SidebarRoute>
+                    <SidebarRoute href="https://api.whatsapp.com/send?phone=5585992235391" target="_blank">Entre em Contato</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

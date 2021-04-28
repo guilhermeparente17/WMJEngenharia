@@ -13,7 +13,6 @@ import Imagem from '../../images/foto3.jpg'
 import Imagem2 from '../../images/foto4.jpg'
 import Imagem3 from '../../images/foto5.jpg'
 import Imagem4 from '../../images/foto6.jpg'
-import Imagem5 from '../../images/foto7.PNG'
 
 const index = () => {
     return (
@@ -54,7 +53,7 @@ const index = () => {
                     </ObrasCard>
 
                     <ObrasCard>
-                        <ObrasImg src={Imagem5} />
+                        <ObrasImg src={Imagem3} />
                         <ObrasContent>
                             <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
                             <ObrasP>Potencia 5,75 kwp</ObrasP>

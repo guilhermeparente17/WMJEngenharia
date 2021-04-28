@@ -96,27 +96,27 @@ const index = () => {
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150} src={Servico3} />
-                            <ItensTitulo>Projetos de Construcao Civil</ItensTitulo>
+                            <ItensTitulo>Projetos de Construção Civil</ItensTitulo>
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150} src={Servico4} />
-                            <ItensTitulo>Regularizacao de Obras</ItensTitulo>
+                            <ItensTitulo>Regularização de Obras</ItensTitulo>
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150}  src={Servico5} />
-                            <ItensTitulo>Regularizacao Ambiental</ItensTitulo>
+                            <ItensTitulo>Regularização Ambiental</ItensTitulo>
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150} src={Servico6} />
-                            <ItensTitulo>Projetos de combate <br/> a incendio e panico</ItensTitulo>
+                            <ItensTitulo>Projetos de combate <br/> a incêndio e pânico</ItensTitulo>
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150} src={Servico7} />
-                            <ItensTitulo>Seguranca do Trabalho</ItensTitulo>
+                            <ItensTitulo>Segurança do Trabalho</ItensTitulo>
                         </ItensCard>
                         <ItensCard margin={0}>
                             <ItensImg width={150} height={150} src={Servico8} />
-                            <ItensTitulo>Inspecao Predial</ItensTitulo>
+                            <ItensTitulo>Inspeção Predial</ItensTitulo>
                         </ItensCard>
                     </ItensContainer>
                 </Itens>
@@ -141,9 +141,7 @@ const index = () => {
                 </ItensContainer>
             </Itens>
             </section>
-            <WrapperBtn>
-                <Botao href="https://api.whatsapp.com/send?phone=5585992235391" target="_blank">Entre em Contato</Botao>
-            </WrapperBtn>
+
         </div>
     )
 }

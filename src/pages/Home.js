@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar'
 import IndexContainer from '../components/IndexContainer'
 import Sobre from '../components/Sobre'
 import Obras from '../components/Obras'
-import Inversores from '../components/Inversores'
+import Inversores from '../components/Itens'
 import Footer from '../components/Footer'
 
 const Home = () => {

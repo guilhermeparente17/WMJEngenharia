@@ -66,13 +66,13 @@ export const SidebarContainer = styled.aside`
         justify-content:center;
     `
 
-    export const SidebarRoute = styled(LinkS)`
+    export const SidebarRoute = styled.a`
         border-radius: 50px;
         background: #008C00;
         white-space: nowrap;
         padding: 16px 64px;
         color: #010606;
-        font-size: 16px;
+        font-size: 18px;
         outline:none;
         border: none;
         cursor: pointer;
@@ -80,7 +80,7 @@ export const SidebarContainer = styled.aside`
         text-decoration: none;
         &:hover{
             transition: all 0.2s ease-in-out;
-            background: #fff;
-            color: #010606;
+            background: #005900;
+            color: #fff;
         }
     `
