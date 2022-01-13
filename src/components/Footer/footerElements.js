@@ -61,7 +61,7 @@ export const FooterLi = styled.li`
 export const FooterLink = styled.a`
     text-decoration:none;
     color: #fff;
-    margin-left: 10px;
+    margin-left: 5px;
 
     
     &:hover{

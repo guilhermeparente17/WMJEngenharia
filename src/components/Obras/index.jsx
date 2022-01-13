@@ -6,13 +6,17 @@ import {
     ObrasCard,
     ObrasImg,
     ObrasTitulo,
-    ObrasP,
+    // ObrasP,
     ObrasContent
 } from './ObrasElements'
-import Imagem from '../../images/foto3.jpg'
-import Imagem2 from '../../images/foto4.jpg'
-import Imagem3 from '../../images/foto5.jpg'
-import Imagem4 from '../../images/foto6.jpg'
+
+import Obra2 from '../../images/obra2.jpeg'
+import Obra3 from '../../images/obra3.jpeg'
+import Obra4 from '../../images/obra4.jpeg'
+import Obra5 from '../../images/obra5.jpeg'
+import Obra6 from '../../images/obra6.jpeg'
+import Obra7 from '../../images/obra7.jpeg'
+import Obra8 from '../../images/obra8.jpeg'
 
 const index = () => {
     return (
@@ -21,46 +25,60 @@ const index = () => {
                 <ObrasH1>Obras</ObrasH1>
                 <ObrasContainer>
                     <ObrasCard>
-                        <ObrasImg src={Imagem} />
+                        <ObrasImg src={Obra2} />
                         <ObrasContent>
-                            <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
-                            <ObrasP>Potencia 5,75 kwp</ObrasP>
+                            <ObrasTitulo>Alphaville,<br />Fortaleza-CE</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
                         </ObrasContent>
                     </ObrasCard>
 
                     <ObrasCard>
-                        <ObrasImg src={Imagem2} />
+                        <ObrasImg src={Obra3} />
                         <ObrasContent>
-                            <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
-                            <ObrasP>Potencia 5,75 kwp</ObrasP>
+                            <ObrasTitulo>Centro,<br />Sobral-CE</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
                         </ObrasContent>
                     </ObrasCard>
 
                     <ObrasCard>
-                        <ObrasImg src={Imagem3} />
+                        <ObrasImg src={Obra5} />
                         <ObrasContent>
-                            <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
-                            <ObrasP>Potencia 5,75 kwp</ObrasP>
+                            <ObrasTitulo>Obra Assai Atacadista</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
                         </ObrasContent>
                     </ObrasCard>
 
                     <ObrasCard>
-                        <ObrasImg src={Imagem4} />
+                        <ObrasImg src={Obra7} />
                         <ObrasContent>
-                            <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
-                            <ObrasP>Potencia 5,75 kwp</ObrasP>
+                            <ObrasTitulo fontSize={20}>Obra Seminovos Movida</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
                         </ObrasContent>
                     </ObrasCard>
 
                     <ObrasCard>
-                        <ObrasImg src={Imagem3} />
+                        <ObrasImg src={Obra6} />
                         <ObrasContent>
-                            <ObrasTitulo>Dunas,<br />Fortaleza-CE</ObrasTitulo>
-                            <ObrasP>Potencia 5,75 kwp</ObrasP>
+                            <ObrasTitulo fontSize={20}>Reforma de apartamento privado.</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
                         </ObrasContent>
                     </ObrasCard>
 
+                    <ObrasCard>
+                        <ObrasImg src={Obra4} />
+                        <ObrasContent>
+                            <ObrasTitulo>Energia Solar</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
+                        </ObrasContent>
+                    </ObrasCard>
 
+                    <ObrasCard>
+                        <ObrasImg src={Obra8} />
+                        <ObrasContent>
+                            <ObrasTitulo>Energia Solar</ObrasTitulo>
+                            {/* <ObrasP>Potencia 5,75 kwp</ObrasP> */}
+                        </ObrasContent>
+                    </ObrasCard>
 
 
                 </ObrasContainer>

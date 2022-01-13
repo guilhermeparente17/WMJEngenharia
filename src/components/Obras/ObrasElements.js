@@ -32,9 +32,9 @@ export const ObrasContent = styled.div`
 
 
 export const ObrasCard = styled.div`
-    flex: 1 0 200px;
+    flex: 1 0 250px;
     margin: 0 30px;
-    
+    overflow: hidden;
 `
 
 
@@ -46,11 +46,11 @@ export const ObrasImg = styled.img`
     border-radius:15px;
     max-width: 100%;
     display: block;
-    transition: 0.08s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 
     &:hover{
         transform: scale(1.05);
-        transition: 0.08s all ease-in-out;
+        transition: 0.4s all ease-in-out;
     }
 
     @media screen and (max-width: 768px){
@@ -69,6 +69,7 @@ export const ObrasImg = styled.img`
 
 export const ObrasTitulo = styled.h2`
     font-family: 'Montserrat', sans-serif;
+    font-size: ${props => `${props.fontSize}px`};
 `
 
 
